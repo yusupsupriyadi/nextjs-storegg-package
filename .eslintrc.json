@@ -20,5 +20,27 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "react/react-in-jsx-scope": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "react/jsx-props-no-spreading": "off",
+        "no-underscore-dangle": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "import/extensions": ["error", "ignorePackages", {
+            "js": "never",
+            "jsx": "never",
+            "ts": "never",
+            "tsx": "never"
+        }],
+        "react/jsx-indent": "off",
+        "react/jsx-first-prop-new-line": "off",
+        "react/jsx-indent-props": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/jsx-max-props-per-line": "off",
+        "react/no-unknown-property": "off",
+        "react/self-closing-comp": "off",
+        "react/jsx-closing-tag-location": "off",
+        "react/jsx-closing-bracket-location": "off",
+        "quotes":"off"
     }
 }
